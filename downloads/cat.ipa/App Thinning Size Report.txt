@@ -1,8 +1,0 @@
-
-App Thinning Size Report for All Variants of CatAsAService
-
-Variant: CatAsAService-BE94BDD6-3A31-4E45-83C7-1CF6258FF16D.ipa
-Supported variant descriptors: [device: iPhone10,6, os-version: 13.0], [device: iPhone11,6, os-version: 13.0], [device: iPhone10,5, os-version: 13.0], [device: iPhone12,5, os-version: 13.0], [device: iPhone10,3, os-version: 13.0], [device: iPhone9,2, os-version: 13.0], [device: iPhone10,2, os-version: 13.0], [device: iPhone12,3, os-version: 13.0], [device: iPhone11,4, os-version: 13.0], [device: iPhone11,2, os-version: 13.0], [device: iPhone8,2, os-version: 13.0], and [device: iPhone9,4, os-version: 13.0]
-App + On Demand Resources size: 509 KB compressed, 618 KB uncompressed
-App size: 509 KB compressed, 618 KB uncompressed
-On Demand Resources size: Zero KB compressed, Zero KB uncompressed
