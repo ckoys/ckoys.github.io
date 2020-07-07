@@ -1,2 +1,3 @@
 name: Christian Koys, Chromosphere IT
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
