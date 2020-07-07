@@ -5,4 +5,4 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-merlot
 remote_theme: pages-themes/merlot
-show_downloads: ["true"]
+show_downloads: ["false"]
