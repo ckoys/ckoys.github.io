@@ -1,4 +1,7 @@
+title: [The title of your site]
+description: [A short description of your site's purpose]
 name: Christian Koys, Chromosphere IT
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 theme: jekyll-theme-merlot
+show_downloads: ["true"]
