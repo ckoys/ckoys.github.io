@@ -1,5 +1,8 @@
-title: Merlot theme
-description: Merlot is a theme for GitHub Pages.
-show_downloads: true
+title: Cats as a Service
+description: Cats!
+name: Christian Koys, Chromosphere IT
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+show_downloads: false
 google_analytics:
 theme: jekyll-theme-merlot
