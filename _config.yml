@@ -1,8 +1,5 @@
-title: Cats as a Service
-description: Cats!
-name: Christian Koys, Chromosphere IT
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+title: Merlot theme
+description: Merlot is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
 theme: jekyll-theme-merlot
-remote_theme: pages-themes/merlot
-show_downloads: ["false"]
