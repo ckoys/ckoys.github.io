@@ -9,7 +9,7 @@
 	<key>manifest</key>
 	<dict>
 		<key>appURL</key>
-		<string>https://ckoys.github.io/downlods/cat.ipa</string>
+		<string>https://ckoys.github.io/downloads/cats.ipa</string>
 		<key>displayImageURL</key>
 		<string>https://ckoys.github.io/downloads/cat57.png</string>
 		<key>fullSizeImageURL</key>
@@ -24,6 +24,6 @@
 	<key>teamID</key>
 	<string>YD64DR63CL</string>
 	<key>thinning</key>
-	<string>&lt;thin-for-all-variants&gt;</string>
+	<string>iPhone12,5</string>
 </dict>
 </plist>
