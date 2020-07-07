@@ -1,5 +1,5 @@
-title: [The title of your site]
-description: [A short description of your site's purpose]
+title: Cats as a Service
+description: Cats!
 name: Christian Koys, Chromosphere IT
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
