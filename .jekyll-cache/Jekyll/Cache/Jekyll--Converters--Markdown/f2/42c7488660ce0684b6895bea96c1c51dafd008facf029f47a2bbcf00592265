@@ -1,4 +1,4 @@
-I"˜<h1 id="hybrid-html-with-markdown-is-a-not-bad-choice-_">Hybrid HTML with Markdown is a not bad choice ^_^</h1>
+I";<h1 id="hybrid-html-with-markdown-is-a-not-bad-choice-_">Hybrid HTML with Markdown is a not bad choice ^_^</h1>
 
 <h2 id="table-usage">Table Usage</h2>
 
@@ -48,14 +48,4 @@
     </tr>
   </tbody>
 </table>
-
-<h2 id="plantuml-usage">PlantUML Usage</h2>
-
-<p><img class="plantuml" src="http://www.plantuml.com/plantuml/svg/~h407374617274756d6c0a426f62202d3e20416c696365203a2068656c6c6f0a40656e64756d6c" /></p>
-
-<h2 id="video-usage">Video Usage</h2>
-
-<p><img src="https://www.youtube.com/watch?v=Ptk_1Dc2iPY" alt="" /></p>
-
-<p>I give this plugin two :+1:!</p>
 :ET
