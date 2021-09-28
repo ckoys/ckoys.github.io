@@ -14,6 +14,8 @@ github_username:  ckoys
 # theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-spaceship
 
 # variables
 name: Blog
