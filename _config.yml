@@ -5,7 +5,7 @@ permalink: /:year:month:day/:title
 url: https://ckoys.github.io
 baseurl: /
 twitter_username: JarisDax
-github_username:  ckoys
+github_username: ckoys
 
 # Build settings
 # theme: minima
@@ -16,13 +16,10 @@ plugins:
 
 # variables
 name: Blog
-description: gesammelte Dinge ...
 google_verification: null
-
 
 # File management
 include: [".htaccess"]
-exclude: ["README.md", "LICENSE"]
 
 # Sass
 sass:
@@ -34,8 +31,8 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter_opts:
-    disable : false
-    
+    disable: false
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -45,13 +42,15 @@ kramdown:
 # their entries' file path in the `include:` list.
 #
 exclude:
-   - .sass-cache/
-   - .jekyll-cache/
-   - gemfiles/
-   - Gemfile
-   - Gemfile.lock
-   - node_modules/
-   - vendor/bundle/
-   - vendor/cache/
-   - vendor/gems/
-   - vendor/ruby/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE
