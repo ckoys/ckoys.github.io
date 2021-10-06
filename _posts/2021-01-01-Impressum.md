@@ -2,7 +2,7 @@
 layout: default
 title: "Impressum"
 tags:
-	- Impressum
+  - Impressum
 ---
 
 **Impressum**
