@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: compress
 title: "Impressum"
 tags: Impressum
 ---
