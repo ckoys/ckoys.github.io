@@ -19,12 +19,12 @@ Christian Koys
 
 **Kontakt:**
 
-Telefon: +49 152-54050390
+Telefon: +49 152-54050390  
 E-Mail: ckoys@tutanota.com
 
-Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
-Christian Koys
-Strasse der Freundschaft 47B
+Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:  
+Christian Koys  
+Strasse der Freundschaft 47B  
 17438 Wolgast
 
 **Haftungsausschluss:**
