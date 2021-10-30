@@ -48,8 +48,6 @@ GEM
       jekyll (>= 3.6, < 5.0)
       nokogiri (~> 1.6)
       rainbow (~> 3.0)
-    jekyll-timeago (0.14.0)
-      mini_i18n (>= 0.8.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.3.1)
@@ -61,13 +59,14 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    mini_i18n (0.8.0)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     multi_json (1.15.0)
     nokogiri (1.12.5-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.12.5-x86_64-linux)
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -107,6 +106,7 @@ GEM
 PLATFORMS
   x86_64-darwin-20
   x86_64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   jekyll (~> 4.2.1)
@@ -114,7 +114,6 @@ DEPENDENCIES
   jekyll-feed (~> 0.12)
   jekyll-sitemap
   jekyll-spaceship
-  jekyll-timeago
   minima (~> 2.5)
   tzinfo (~> 1.2)
   tzinfo-data
@@ -122,4 +121,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.2.28
+   2.2.30
