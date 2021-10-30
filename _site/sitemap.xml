@@ -2,15 +2,19 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/20210101/Impressum</loc>
-<lastmod>2021-01-01T00:00:00+01:00</lastmod>
+<lastmod>2021-01-01T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/20210201/Eins</loc>
-<lastmod>2021-02-01T08:30:00+01:00</lastmod>
+<lastmod>2021-02-01T08:30:00+00:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/20210301/Zwei</loc>
-<lastmod>2021-03-01T08:30:00+01:00</lastmod>
+<lastmod>2021-03-01T08:30:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/20210401/Drei</loc>
+<lastmod>2021-04-01T08:30:00+00:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/tag/blog/</loc>
@@ -35,6 +39,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/admin/</loc>
-<lastmod>2021-10-07T09:08:09+02:00</lastmod>
+<lastmod>2021-10-30T14:25:53+00:00</lastmod>
 </url>
 </urlset>
