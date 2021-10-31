@@ -31,4 +31,7 @@ gem "webrick"
 gem 'jekyll-admin', group: :jekyll_plugins
 gem 'jekyll-sitemap'
 gem 'jekyll-spaceship'
+<<<<<<< HEAD
 # gem 'jekyll-livereload'
+=======
+>>>>>>> 0f3ce258f325f357c247424bb343f3c5f4885c64
