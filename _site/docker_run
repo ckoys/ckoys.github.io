@@ -1,0 +1,7 @@
+docker run --rm \
+  --mount type=bind,source=/Volumes/System/Users/ckoys/Documents/Webseiten/ckoys.github.io,target=/srv/jekyll \
+  --publish 4000:4000 \
+  --publish 35729:35729 \
+  --name jekyll \
+  jekyll/jekyll \
+  jekyll serve -l
