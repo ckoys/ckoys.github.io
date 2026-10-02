@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<article>
+  <h1 class="page-title">{{ page.title }}</h1>
+  <p class="post-meta">{{ page.date | date: "%d.%m.%Y" }}{% if page.tags.size > 0 %} :: <span class="tags">{% for tag in page.tags %}<a href="/tag/{{ tag | slugify }}/">{{ tag }}</a>{% endfor %}</span>{% endif %}</p>
+  <div class="post-content">
+{{ content }}
+  </div>
+</article>
+<hr>
+<p><a href="/">← alle Beiträge</a></p>

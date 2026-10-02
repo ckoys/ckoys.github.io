@@ -1,8 +1,9 @@
 ---
 layout: default
 ---
-<ul>
-	{% for post in site.posts %}
-	<li><a href="{{  post.url }}" title="{{ post.title }}"><img src="/assets/img/file.ico" title="{{ post.title }}" />{{ post.title }}</a></li>
-	{% endfor %}
-</ul>
+<div class="framed">
+  <h1 class="prompt">Hallo.</h1>
+  <p>Notizen zu Security, Tools und dem, was beim Bauen schiefgeht. Die Apps findest du bei <a href="https://chromosphere-it.github.io/">Chromosphere IT</a>.</p>
+</div>
+
+{% include post-list.html posts=site.posts %}

@@ -3,7 +3,7 @@ title: Nachdenken
 tags:
 - News
 - Blog
-layout: me
+layout: post
 date: '2021-10-31 08:30:00'
 ---
 

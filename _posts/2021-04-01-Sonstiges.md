@@ -1,6 +1,6 @@
 ---
 title: Sonstiges
-layout: me
+layout: post
 date: "2021-04-01 08:30:00"
 tags: [Sonstiges]
 ---

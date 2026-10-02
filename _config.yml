@@ -1,48 +1,35 @@
-title: Blog
+title: ckoys
 email: ckdevel@me.com
-description: my private blog
+description: Notizen zu Security, Tools und dem, was beim Bauen schiefgeht.
 permalink: /:year:month:day/:title
 url: https://ckoys.github.io
-baseurl: /
+baseurl: ""
+lang: de
 github_username: ckoys
-
-# Build settings
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# variables
-name: Blog
-google_verification: null
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
 
-# File management
-include: [".htaccess"]
-
-# Sass
-sass:
-  style: compressed
-  sass_dir: _sass
-
-# Markdown
 markdown: kramdown
 kramdown:
   input: GFM
-  syntax_highlighter_opts:
-    disable: false
+  syntax_highlighter: rouge
 
-# Excluded
 exclude:
   - .sass-cache/
   - .jekyll-cache/
-  - gemfiles/
   - Gemfile
   - Gemfile.lock
   - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - vendor/
   - README.md
   - LICENSE
   - .DS_Store

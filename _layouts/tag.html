@@ -1,14 +1,6 @@
 ---
 layout: default
 ---
-
-<ul>
-  {% for post in site.tags[page.tag] %}
-  <li>
-    <a href="{{  post.url }}" title="{{ post.title }}"
-      ><img src="/assets/img/file.ico" title="{{ post.title }}" />{{ post.title
-      }}</a
-    >
-  </li>
-  {% endfor %}
-</ul>
+<h1 class="page-title">#{{ page.tag }}</h1>
+{% assign tag_posts = site.tags[page.tag] %}
+{% include post-list.html posts=tag_posts %}

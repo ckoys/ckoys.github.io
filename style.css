@@ -1,0 +1,161 @@
+/* Look nach dem Hugo-Theme "Terminal" von panr (MIT), eigene Umsetzung.
+   Schrift: Fira Code, selbst gehostet, SIL Open Font License (fonts/OFL.txt). */
+
+@font-face {
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url("/fonts/FiraCode-LatinExt.woff2") format("woff2");
+  unicode-range: U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url("/fonts/FiraCode-Latin.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+  --background: #1a170f;
+  --foreground: #eceae5;
+  --accent: #eec35e;
+  --muted: color-mix(in srgb, var(--foreground) 65%, transparent);
+  --line: color-mix(in srgb, var(--foreground) 10%, transparent);
+  --font-size: 1rem;
+  --line-height: 1.54em;
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { background: var(--background); }
+body {
+  margin: 0;
+  font-family: "Fira Code", Monaco, Consolas, "Ubuntu Mono", ui-monospace, monospace;
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  color: var(--foreground);
+  background: var(--background);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: "liga", "tnum", "zero";
+  overflow-wrap: anywhere;
+}
+::selection { background: var(--accent); color: var(--background); }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 864px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 40px;
+  border-left: 1px solid color-mix(in srgb, var(--accent) 10%, transparent);
+  border-right: 1px solid color-mix(in srgb, var(--accent) 10%, transparent);
+}
+
+a { color: var(--accent); }
+h1 { font-size: calc(var(--font-size) * 1.45); }
+h2 { font-size: calc(var(--font-size) * 1.35); }
+h3 { font-size: calc(var(--font-size) * 1.15); }
+h1, h2, h3, p, ul, ol { margin: 25px 0; letter-spacing: 0; }
+ul, ol { margin-left: 4ch; padding: 0; }
+li::marker { color: var(--accent); }
+strong { color: var(--foreground); }
+code {
+  font-family: inherit;
+  color: var(--accent);
+  background: color-mix(in srgb, var(--foreground) 5%, transparent);
+  border: 1px solid var(--line);
+  padding: 1px 6px;
+  font-size: .95em;
+}
+hr { width: 100%; border: none; background: var(--accent); height: 2px; margin: 50px 0; }
+
+/* Kopf */
+.header { display: flex; flex-direction: column; gap: 20px; margin-bottom: 30px; }
+.logo {
+  display: inline-flex; align-items: center; gap: 10px; align-self: flex-start;
+  background: var(--accent); color: var(--background);
+  font-weight: 700; text-decoration: none; padding: 5px 10px;
+  white-space: nowrap; overflow-wrap: normal;
+}
+.logo img { width: 24px; height: 24px; display: block; }
+.menu { display: flex; flex-wrap: wrap; gap: 6px 20px; margin: 0; padding: 0; list-style: none; }
+.menu a { color: var(--accent); }
+.menu a[aria-current="page"] { color: var(--foreground); text-decoration: none; }
+
+/* Inhalt */
+.content { flex: 1 0 auto; }
+.framed { border: 1px solid var(--accent); padding: 20px; margin: 0 0 25px; }
+.framed > :first-child { margin-top: 0; }
+.framed > :last-child { margin-bottom: 0; }
+.prompt::before { content: "$ "; color: var(--accent); }
+
+.post { padding: 30px 0; }
+.post:not(:last-of-type) { border-bottom: 1px solid var(--line); }
+.post-title {
+  color: var(--accent);
+  margin: 0 0 15px;
+  padding-bottom: 15px;
+  border-bottom: 3px dotted var(--accent);
+}
+.post-title a { text-decoration: none; }
+.post-meta { color: var(--muted); margin: 0 0 10px; }
+.post p { margin: 10px 0; }
+.links a + a { margin-left: 1ch; }
+.status { color: var(--accent); font-weight: 700; }
+.status::before { content: "["; }
+.status::after { content: "]"; }
+
+.page-title {
+  color: var(--accent);
+  margin-top: 0;
+  padding-bottom: 15px;
+  border-bottom: 3px dotted var(--accent);
+}
+.lead { color: var(--muted); }
+
+/* Fuß */
+.footer {
+  padding: 40px 0 0;
+  opacity: .65;
+  text-align: center;
+}
+.footer a { color: inherit; }
+.footer span { white-space: nowrap; }
+
+@media (max-width: 684px) {
+  .container { padding: 20px 16px; border-left: none; border-right: none; }
+  hr { margin: 35px 0; }
+}
+
+/* Blog-Ergänzungen (gleicher Look wie der Chromosphere-IT-Hub) */
+pre {
+  margin: 25px 0;
+  padding: 20px;
+  overflow-x: auto;
+  border: 1px solid var(--accent);
+  background: color-mix(in srgb, var(--foreground) 3%, transparent);
+  font-size: .95em;
+  line-height: 1.5;
+  overflow-wrap: normal;
+}
+pre code { color: var(--foreground); background: none; border: none; padding: 0; font-size: inherit; }
+blockquote {
+  margin: 25px 0;
+  padding: 0 0 0 2ch;
+  border-left: 2px solid var(--accent);
+  color: var(--muted);
+}
+img { max-width: 100%; height: auto; }
+table { border-collapse: collapse; margin: 25px 0; width: 100%; }
+th, td { border: 1px solid var(--line); padding: 6px 10px; text-align: left; }
+.post-content > :first-child { margin-top: 0; }
+.tags a { margin-right: 1ch; }
+.tags a::before { content: "#"; }
+.highlight .c, .highlight .c1, .highlight .cm { color: var(--muted); font-style: italic; }
+.highlight .s, .highlight .s1, .highlight .s2 { color: var(--accent); }
+.highlight .nv, .highlight .nb { color: color-mix(in srgb, var(--accent) 60%, var(--foreground)); }
