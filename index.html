@@ -6,4 +6,9 @@ layout: default
   <p>Notizen zu Security, Tools und dem, was beim Bauen schiefgeht. Die Apps findest du bei <a href="https://chromosphere-it.github.io/">Chromosphere IT</a>.</p>
 </div>
 
+{% if site.posts.size > 0 %}
 {% include post-list.html posts=site.posts %}
+{% else %}
+<p class="prompt">ls posts/</p>
+<p class="post-meta">Noch keine Beiträge. Der erste ist in Arbeit.</p>
+{% endif %}
