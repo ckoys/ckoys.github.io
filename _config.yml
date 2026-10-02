@@ -4,15 +4,13 @@ description: my private blog
 permalink: /:year:month:day/:title
 url: https://ckoys.github.io
 baseurl: /
-twitter_username: JarisDax
 github_username: ckoys
 
 # Build settings
-# theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-spaceship
 
 # variables
 name: Blog

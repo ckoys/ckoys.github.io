@@ -34,3 +34,10 @@ Temporary Items
 .DS_Store
 .jekyll-cache/
 .DS_Store
+
+# Jekyll build output
+_site/
+.jekyll-cache/
+.sass-cache/
+vendor/
+.bundle/
